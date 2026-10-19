@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vitrine.metadatamarketer.com/sitemap.xml
