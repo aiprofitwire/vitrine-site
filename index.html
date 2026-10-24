@@ -3,67 +3,98 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vitrine: full-page screenshots, framed in one click</title>
-<meta name="description" content="A Chrome extension for full-page screenshots, framed in one click and turned into scrolling videos and carousels. Pay once. Your screenshots never leave your computer.">
+<title>Vitrine: full-page screenshots worth showing, for Chrome</title>
+<meta name="description" content="A Chrome extension that captures any web page from top to bottom, leaves pop-ups and ads out, and frames it in one click. Turn it into videos and carousels. Pay once. Your screenshots never leave your computer.">
 <link rel="canonical" href="https://vitrine.metadatamarketer.com/">
 <link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/"><link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/"><link rel="alternate" hreflang="x-default" href="https://vitrine.metadatamarketer.com/">
-<meta property="og:type" content="website"><meta property="og:url" content="https://vitrine.metadatamarketer.com/"><meta property="og:title" content="Vitrine: full-page screenshots, framed in one click">
-<meta property="og:description" content="A Chrome extension for full-page screenshots, framed in one click and turned into scrolling videos and carousels. Pay once. Your screenshots never leave your computer."><meta property="og:image" content="https://vitrine.metadatamarketer.com/img/og-en.jpg"><meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#F5F1EA">
+<meta property="og:type" content="website"><meta property="og:url" content="https://vitrine.metadatamarketer.com/"><meta property="og:title" content="Vitrine: full-page screenshots worth showing, for Chrome">
+<meta property="og:description" content="A Chrome extension that captures any web page from top to bottom, leaves pop-ups and ads out, and frames it in one click. Turn it into videos and carousels. Pay once. Your screenshots never leave your computer."><meta property="og:image" content="https://vitrine.metadatamarketer.com/img/og-en.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#17140F">
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="preload" href="fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="img/en/hero-after.webp" as="image" type="image/webp" fetchpriority="high">
-<link rel="stylesheet" href="home.css">
+<link rel="preload" href="fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/en/hero-poster.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="stylesheet" href="v2.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Vitrine", "applicationCategory": "BrowserApplication", "operatingSystem": "Google Chrome", "description": "A Chrome extension that captures any web page from top to bottom, leaves pop-ups and ads out, and frames it in one click. Turn it into videos and carousels. Pay once. Your screenshots never leave your computer.", "url": "https://vitrine.metadatamarketer.com/", "inLanguage": "en", "offers": [{"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"}, {"@type": "Offer", "name": "Pro", "price": "24", "priceCurrency": "USD"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="bar launch-only" id="bar"><div class="wrap bar-row"><p><span class="dot" aria-hidden="true"></span><span class="bar-long">Launch price: Pro is $19 once until November 30, then $24.</span><span class="bar-short">Launch price: Pro $19 until Nov. 30.</span></p><a href="#pricing">See pricing</a></div></div>
 <header class="top"><div class="wrap top-row">
   <a class="brand" href="./" aria-label="Vitrine"><svg viewBox="6 6 116 116" aria-hidden="true"><path d="M22.67 121.33V49.33A42.67 42.67 0 0 1 108 49.33V121.33Z" fill="none" stroke="#17140F" stroke-width="2.67" stroke-linejoin="round"/><path d="M24 120V49.33A41.33 41.33 0 0 1 106.67 49.33V120Z" fill="#FF5A36"/><path d="M27.69 116.31V49.33A37.64 37.64 0 0 1 102.98 49.33V116.31Z" fill="none" stroke="#F6F1E9" stroke-width="7.38"/><path d="M65.33 15.38V112.62M31.38 61.03H99.29" stroke="#F6F1E9" stroke-width="4.72"/></svg><span>Vitrine</span></a>
-  <nav class="links" aria-label="Main"><a href="#features">Features</a><a href="#privacy">Privacy</a><a href="#pricing">Pricing</a><a href="fr/" lang="fr" hreflang="fr">Français</a></nav>
+  <nav class="links" aria-label="Main"><a href="#how">How it works</a><a href="#formats">Videos</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav>
+  <div class="top-end"><a class="lang" href="fr/" lang="fr" hreflang="fr">Français</a><a class="btn btn-main btn-sm" href="media/en/demo.mp4" data-demo>Watch the demo</a></div>
 </div></header>
 <main id="main">
-<section class="hero"><div class="wrap hero-grid">
-  <div class="hero-text">
-    <p class="eyebrow">A Chrome extension · Free to start</p>
-    <h1>Full-page screenshots, <em>framed</em> in one click.</h1>
-    <p class="lede">Any web page, top to bottom and pixel sharp. Cookie banners, pop-ups and ads are left out, and the result is ready for your deck, your post or your client.</p>
-    <div class="ctas"><span class="btn btn-main is-soon" role="note">Coming soon to the Chrome Web Store</span><a class="btn btn-ghost" href="#watch">See it work</a></div>
-    <p class="note">Pay once for Pro. No account. No subscription.</p>
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap hero-text">
+    <p class="eyebrow">Chrome extension · Free to start</p>
+    <h1>Full-page screenshots worth <em>showing</em>.</h1>
+    <p class="lede">Capture any web page from top to bottom in one click. Pop-ups, cookie banners and ads stay out of the shot, and it comes out framed, ready for your deck, your post or your client.</p>
+    <div class="ctas" id="hero-ctas"><a class="btn btn-main" href="media/en/demo.mp4" data-demo><span class="tri" aria-hidden="true"></span>Watch the demo<span class="dur">0:31</span></a><a class="btn btn-ghost" href="#pricing">See the launch price</a></div>
+    <p class="status"><span class="pulse" aria-hidden="true"></span>Coming soon to the Chrome Web Store</p>
+    <ul class="trust"><li>No account</li><li>Pay once for Pro</li><li>Your screenshots never leave your computer</li></ul>
   </div>
-  <div class="hero-vis" aria-label="Before / After">
-    <figure class="before"><img class="" src="img/en/hero-before.webp" width="720" height="720" alt="A made-up coffee shop page covered by a pop-up, a video ad and a cookie banner." loading="lazy" decoding="async"><figcaption class="chip">Before</figcaption></figure>
-    <figure class="after"><img class="" src="img/en/hero-after.webp" width="1000" height="1150" alt="The same page captured by Vitrine from top to bottom, without the pop-up or the ads, framed on the Vermilion backdrop." fetchpriority="high"><figcaption class="chip chip-v">After</figcaption></figure>
+  <div class="wrap">
+    <div class="window">
+      <div class="window-frame">
+        <video class="hero-video" muted loop playsinline preload="none" width="1280" height="720" poster="img/en/hero-poster.webp" data-src="media/en/hero-1280.mp4" data-sm="media/en/hero-640.mp4" aria-label="Vitrine’s demo: a made-up coffee shop page captured from top to bottom, framed in the Studio, then turned into a scrolling video."></video>
+        <button class="play" type="button" hidden>Play video</button>
+      </div>
+      <div class="window-floor" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+<div class="ticker" aria-hidden="true"><ul><li>Full page</li><li>Visible area</li><li>Region</li><li>Element</li><li>PNG</li><li>JPG</li><li>PDF</li><li>MP4 video</li><li>16:9</li><li>1:1</li><li>4:5</li><li>9:16</li><li>Carousels</li><li>Side by side</li><li>Step-by-step guides</li><li>Markdown</li></ul><ul><li>Full page</li><li>Visible area</li><li>Region</li><li>Element</li><li>PNG</li><li>JPG</li><li>PDF</li><li>MP4 video</li><li>16:9</li><li>1:1</li><li>4:5</li><li>9:16</li><li>Carousels</li><li>Side by side</li><li>Step-by-step guides</li><li>Markdown</li></ul></div>
+<section class="problem" id="problem"><div class="wrap">
+  <div class="head rv"><p class="kicker">Before and after</p><h2>Stop sending <em>ugly</em> screenshots.</h2><p class="sub">A plain screenshot catches the pop-up, the cookie banner and the ads, and only what fits on your screen. Vitrine leaves the clutter out and keeps the whole page.</p></div>
+  <div class="versus">
+    <figure class="vs-card vs-before rv"><figcaption class="tag">What you see</figcaption><div class="vs-img"><img class="" src="img/en/before.webp" width="1100" height="1100" alt="A made-up coffee shop page covered by a banner ad, a pop-up, a video ad and a cookie banner." loading="lazy" decoding="async"><span class="spot spot-l" style="left:89%;top:14.5%;--i:0"><i></i><b>Banner ad</b></span><span class="spot spot-l" style="left:70%;top:31%;--i:1"><i></i><b>Pop-up</b></span><span class="spot spot-l" style="left:83%;top:71%;--i:2"><i></i><b>Video ad</b></span><span class="spot spot-r" style="left:11%;top:95%;--i:3"><i></i><b>Cookie banner</b></span></div></figure>
+    <div class="vs-keys rv" aria-hidden="true"><span class="keys big"><kbd>⌥</kbd><kbd>⇧</kbd><kbd>S</kbd></span><span class="vs-arrow"></span><small>One shortcut</small></div>
+    <figure class="vs-card vs-after rv"><figcaption class="tag tag-v">What you send</figcaption><div class="vs-img pan" style="--h:2.0250"><img class="" src="img/en/after-full.webp" width="1000" height="2025" alt="The same page captured by Vitrine from top to bottom, without the ads or the pop-up, framed on the Vermilion backdrop." loading="lazy" decoding="async"></div><p class="vs-note">The whole page, framed on the Vermilion backdrop. Nothing is blocked on the page itself.</p></figure>
   </div>
 </div></section>
-<section class="facts"><div class="wrap facts-grid"><div class="fact reveal"><h2>Left out of the shot</h2><p>Cookie banners, chat bubbles, pop-ups and ads are hidden before the capture and put back after.</p></div><div class="fact reveal"><h2>Sharp from top to bottom</h2><p>Sticky headers show once. Lazy images load first. Very long pages stay sharp.</p></div><div class="fact reveal"><h2>Yours, on your computer</h2><p>No account. No tracking. Your screenshots never leave your computer.</p></div></div></section>
-<section class="stage" id="watch"><div class="wrap feat-grid">
-  <div class="feat-text reveal"><p class="kicker">Watch</p><h2>One click, start to finish.</h2><p>Real Vitrine output, shown on a made-up shop. The pop-up, the video ad and the cookie banner stay out of the picture.</p><ol class="steps"><li>Press the shortcut or click the icon.</li><li>Vitrine scrolls the page and stitches it into one image.</li><li>The Studio opens with your look already applied.</li></ol></div>
-  <div class="feat-vis reveal"><div class="clip"><video muted loop playsinline preload="none" width="640" height="800" poster="media/en/before-after.webp" data-src="media/en/before-after.mp4" aria-label="One click, start to finish."></video><button class="play" type="button" hidden>Play video</button></div></div>
+<section class="how" id="how"><div class="wrap">
+  <div class="head rv"><p class="kicker">How it works</p><h2>One shortcut, start to <em>finish</em>.</h2></div>
+  <ol class="steps">
+    <li class="step rv" style="--i:0"><div class="step-vis step-keys"><span class="keys huge" data-keys><kbd>⌥</kbd><kbd>⇧</kbd><kbd>S</kbd></span><p class="small win">Windows: Alt + Shift + S</p></div><h3><span class="num">1</span>Press the shortcut</h3><p>Or click the Vitrine icon. Four shortcuts cover the full page, the visible area, a region and an element.</p></li>
+    <li class="step rv" style="--i:1"><div class="step-vis step-scan"><div class="scan-page" style="--h:2.0250"><img class="scan-img" src="img/en/after-full.webp" width="1000" height="2025" alt="" loading="lazy" decoding="async"><span class="scan-line"></span></div></div><h3><span class="num">2</span>Vitrine does the scrolling</h3><p>It scrolls the page for you, loads the lazy images, shows sticky headers once and leaves pop-ups and ads out.</p></li>
+    <li class="step rv" style="--i:2"><div class="step-vis step-studio"><img class="" src="img/en/markup.webp" width="1200" height="798" alt="Vitrine’s Studio with a box, an arrow, a label and numbered steps on a dashboard." loading="lazy" decoding="async"></div><h3><span class="num">3</span>Your look is already on</h3><p>The Studio opens with your framed look applied. Copy it, export it, or turn it into a video.</p></li>
+  </ol>
 </div></section>
-<div id="features"><section class="feat"><div class="wrap feat-grid"><div class="feat-text reveal"><p class="kicker">Page to video</p><h2>A long page becomes a smooth video.</h2><p>Vitrine scrolls your capture from top to bottom as an MP4, in 16:9, 1:1, 4:5 or 9:16. Made from your capture, in your framed look, on your computer.</p></div><div class="feat-vis reveal"><div class="clip"><video muted loop playsinline preload="none" width="640" height="800" poster="media/en/whole-page.webp" data-src="media/en/whole-page.mp4" aria-label="A long page becomes a smooth video."></video><button class="play" type="button" hidden>Play video</button></div></div></div></section><section class="feat flip"><div class="wrap feat-grid"><div class="feat-text reveal"><p class="kicker">Hide ads</p><h2>One switch, and the ads are gone.</h2><p>Turn on Hide ads and the ads, empty ad boxes and pop-overs stay out of the shot. Nothing is blocked on the page itself.</p></div><div class="feat-vis reveal"><div class="clip"><video muted loop playsinline preload="none" width="640" height="800" poster="media/en/ads-gone.webp" data-src="media/en/ads-gone.mp4" aria-label="One switch, and the ads are gone."></video><button class="play" type="button" hidden>Play video</button></div></div></div></section><section class="feat"><div class="wrap feat-grid"><div class="feat-text reveal"><p class="kicker">Brand match · Pro</p><h2>Or let the page pick the colours.</h2><p>Brand match reads the site’s own colours and builds a backdrop that fits. Prefer one look everywhere? Pick a backdrop like Vermilion or Ink and save it as your style.</p></div><div class="feat-vis reveal"><div class="shot"><img class="" src="img/en/brand-match.webp" width="1200" height="841" alt="A blue analytics dashboard framed by Vitrine on a matching blue backdrop." loading="lazy" decoding="async"></div></div></div></section><section class="feat flip"><div class="wrap feat-grid"><div class="feat-text reveal"><p class="kicker">The Studio</p><h2>Point at what matters.</h2><p>Arrows, boxes, highlights, labels, numbered steps and blur. Crop it, then export to PNG, JPG or PDF, or copy it straight to your clipboard.</p></div><div class="feat-vis reveal"><div class="shot"><img class="" src="img/en/markup.webp" width="1200" height="798" alt="Vitrine’s Studio with a box, an arrow, a label and numbered steps on a dashboard." loading="lazy" decoding="async"></div></div></div></section></div>
-<section class="carousel"><div class="wrap">
-  <div class="center reveal"><p class="kicker">Carousels</p><h2>One capture, a whole carousel.</h2><p>Numbered 4:5 slides, each one cut between blocks of text. Export a PDF for LinkedIn or PNG slides for Instagram.</p></div>
-  <ul class="slides reveal"><li><img class="" src="img/en/slide-1.webp" width="420" height="525" alt="Carousel slide 1 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li><img class="" src="img/en/slide-2.webp" width="420" height="525" alt="Carousel slide 2 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li><img class="" src="img/en/slide-3.webp" width="420" height="525" alt="Carousel slide 3 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li><img class="" src="img/en/slide-4.webp" width="420" height="525" alt="Carousel slide 4 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li><img class="" src="img/en/slide-5.webp" width="420" height="525" alt="Carousel slide 5 of 5, cut between blocks of text." loading="lazy" decoding="async"></li></ul>
+<section class="formats" id="formats"><div class="wrap">
+  <div class="head rv"><p class="kicker">Videos and carousels</p><h2>One capture. <em>Every</em> format.</h2><p class="sub">Turn a long capture into a scrolling video or a carousel, sized for slides, posts and Stories. Made on your computer, in your framed look.</p></div>
+  <div class="reels"><figure class="reel rv" style="--i:0"><div class="reel-screen"><video muted loop playsinline preload="none" width="432" height="768" poster="img/en/reel-before-after.webp" data-src="media/en/reel-before-after.mp4" aria-label="Before and after: real Vitrine output on a made-up page."></video><button class="play" type="button" hidden>Play video</button></div><figcaption><b>Before and after</b><span>Pop-ups and ads, gone.</span></figcaption></figure><figure class="reel rv" style="--i:1"><div class="reel-screen"><video muted loop playsinline preload="none" width="432" height="768" poster="img/en/reel-whole-page.webp" data-src="media/en/reel-whole-page.mp4" aria-label="Page to video: real Vitrine output on a made-up page."></video><button class="play" type="button" hidden>Play video</button></div><figcaption><b>Page to video</b><span>It scrolls the whole page by itself.</span></figcaption></figure><figure class="reel rv" style="--i:2"><div class="reel-screen"><video muted loop playsinline preload="none" width="432" height="768" poster="img/en/reel-ads-gone.webp" data-src="media/en/reel-ads-gone.mp4" aria-label="Hide ads: real Vitrine output on a made-up page."></video><button class="play" type="button" hidden>Play video</button></div><figcaption><b>Hide ads</b><span>One switch.</span></figcaption></figure><figure class="reel rv" style="--i:3"><div class="reel-screen"><video muted loop playsinline preload="none" width="432" height="768" poster="img/en/reel-carousel.webp" data-src="media/en/reel-carousel.mp4" aria-label="Carousels: real Vitrine output on a made-up page."></video><button class="play" type="button" hidden>Play video</button></div><figcaption><b>Carousels</b><span>Cut between blocks of text.</span></figcaption></figure></div>
+  <ul class="sizes rv"><li><b>16:9</b> slides and X</li><li><b>1:1</b> posts</li><li><b>4:5</b> feeds</li><li><b>9:16</b> Stories</li></ul>
+  <p class="note rv">Real Vitrine output on made-up pages. Free videos and carousels carry a small “Made with Vitrine” mark. Pro removes it.</p>
 </div></section>
-<section class="duo"><div class="wrap duo-grid"><article class="card reveal"><div class="card-img"><img class="" src="img/en/side-by-side.webp" width="1100" height="600" alt="Two captures, a shop page and a dashboard, side by side on one image." loading="lazy" decoding="async"></div><h3>Side by side</h3><p>Put 2 to 4 captures on one image: pricing pages, before and after, A/B tests.</p></article><article class="card reveal"><div class="card-img"><img class="" src="img/en/guide.webp" width="1100" height="629" alt="A guide in Vitrine’s Library with three numbered steps and a note under each." loading="lazy" decoding="async"></div><h3>Step-by-step guides</h3><p>Each capture becomes a numbered step. Add a note to each, then export a clean PDF or Markdown.</p></article></div></section>
-<section class="stage privacy" id="privacy"><div class="wrap narrow reveal">
-  <p class="kicker">Private by design</p><h2 class="big">Your screenshots never leave your computer.</h2>
-  <ul class="ticks"><li>No account. No analytics. No tracking.</li><li>Vitrine only touches a page when you start a capture.</li><li>Your library stays in this browser, on your computer.</li><li>Videos and carousels are made on your computer, with Chrome’s own video tools.</li><li>No network requests, except a one-time licence check when you activate Pro.</li></ul>
-  <p><a class="light-link" href="privacy.html">Read the privacy policy</a></p>
+<section class="features" id="features"><div class="wrap">
+  <div class="head rv"><p class="kicker">And everything around it</p><h2>Polish it, explain it, <em>keep</em> it.</h2></div>
+  <div class="bento"><article class="card c-wide rv"><div class="card-vis"><img class="" src="img/en/markup.webp" width="1200" height="798" alt="Vitrine’s Studio with a box, an arrow, a label and numbered steps on a dashboard." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">The Studio</p><h3>Point at what matters.</h3><p>Arrows, boxes, highlights, labels, numbered steps and blur. Crop it, then export to PNG, JPG or PDF.</p></div></article><article class="card c-modes rv"><div class="card-vis"><img class="" src="img/en/card-modes.webp" width="1200" height="828" alt="Vitrine’s menu with its four ways to capture: Full page, Visible, Region and Element. Real Vitrine output on a made-up page." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Four ways to capture</p><h3>Exactly the part you need.</h3><ul class="modes"><li><span>Full page</span><span class="keys" aria-label="Option Shift S"><kbd>⌥</kbd><kbd>⇧</kbd><kbd>S</kbd></span></li><li><span>Visible area</span><span class="keys" aria-label="Option Shift V"><kbd>⌥</kbd><kbd>⇧</kbd><kbd>V</kbd></span></li><li><span>Region</span><span class="keys" aria-label="Option Shift R"><kbd>⌥</kbd><kbd>⇧</kbd><kbd>R</kbd></span></li><li><span>Element</span><span class="keys" aria-label="Option Shift E"><kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd></span></li></ul><p class="small win">Windows: Alt + Shift + S</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/brand-match.webp" width="1200" height="841" alt="A blue analytics dashboard framed by Vitrine on a matching blue backdrop." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Brand match · Pro</p><h3>Let the page pick the colours.</h3><p>A backdrop built from the site’s own colours, automatically.</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/side-by-side.webp" width="1100" height="600" alt="Two captures, a shop page and a dashboard, side by side on one image." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Side by side</p><h3>Compare in one image.</h3><p>Put 2 to 4 captures together: pricing pages, before and after, A/B tests.</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/guide.webp" width="1100" height="629" alt="A guide in Vitrine’s Library with three numbered steps and a note under each." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Step-by-step guides</p><h3>Each capture is a step.</h3><p>Add a note to each, then export a clean PDF or Markdown.</p></div></article><article class="card c-wide c-fan rv"><div class="card-vis"><ul class="fan"><li style="--i:1;--a:2"><img class="" src="img/en/slide-1.webp" width="420" height="525" alt="Carousel slide 1 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li style="--i:2;--a:1"><img class="" src="img/en/slide-2.webp" width="420" height="525" alt="Carousel slide 2 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li style="--i:3;--a:0"><img class="" src="img/en/slide-3.webp" width="420" height="525" alt="Carousel slide 3 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li style="--i:4;--a:1"><img class="" src="img/en/slide-4.webp" width="420" height="525" alt="Carousel slide 4 of 5, cut between blocks of text." loading="lazy" decoding="async"></li><li style="--i:5;--a:2"><img class="" src="img/en/slide-5.webp" width="420" height="525" alt="Carousel slide 5 of 5, cut between blocks of text." loading="lazy" decoding="async"></li></ul></div><div class="card-text"><p class="kicker">Carousels</p><h3>A whole carousel from one page.</h3><p>Numbered 4:5 slides, each cut between blocks of text. A PDF for LinkedIn, PNG slides for Instagram.</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/card-copy.webp" width="1200" height="828" alt="Vitrine’s notice “Copied to your clipboard · Saved in your Library” over a full-page capture pasted into a plain message. Real Vitrine output on a made-up page." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Instant Copy</p><h3>Straight to your clipboard.</h3><p>Set it once and every shot is copied, already styled. Paste it into Slack, an email or Notion.</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/card-library.webp" width="1200" height="828" alt="Vitrine’s library with “espresso” typed in the search: the two captures with that word on the page, the word highlighted. Real Vitrine output on a made-up page." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Your library</p><h3>Find any capture by its words.</h3><p>Search by the words that were on the page. Collections for clients and projects. Back up everything as one zip.</p></div></article><article class="card  rv"><div class="card-vis"><img class="" src="img/en/card-stamp.webp" width="1200" height="828" alt="The corner of a framed capture with its proof stamp: “Captured” and the date and time. Real Vitrine output on a made-up page." loading="lazy" decoding="async"></div><div class="card-text"><p class="kicker">Proof stamp · Pro</p><h3>Show where it came from.</h3><p>The source link and the capture date, right under the image.</p></div></article><article class="card c-cta rv"><div class="card-text"><p class="kicker">See it work</p><h3>From the shortcut to the video.</h3><p>The demo shows it all: the shortcut, the framed result, then the video.</p><div class="ctas"><a class="btn btn-main" href="media/en/demo.mp4" data-demo><span class="tri" aria-hidden="true"></span>Watch the demo<span class="dur">0:31</span></a></div></div></article></div>
+</div></section>
+<section class="privacy" id="privacy"><div class="wrap privacy-grid">
+  <div class="rv"><p class="kicker">Private by design</p><h2>Your screenshots never leave your <em>computer</em>.</h2><p><a class="light-link" href="privacy.html">Read the privacy policy</a></p></div>
+  <ul class="ticks rv"><li>No account. No analytics. No tracking.</li><li>Vitrine only touches a page when you start a capture.</li><li>Your library stays in this browser, on your computer.</li><li>Videos and carousels are made on your computer, with Chrome’s own video tools.</li><li>No network requests, except a one-time licence check when you activate Pro.</li></ul>
 </div></section>
 <section class="pricing" id="pricing"><div class="wrap">
-  <div class="center reveal"><p class="kicker">Pricing</p><h2>Free to start. Pay once for Pro.</h2></div>
+  <div class="head rv"><p class="kicker">Pricing</p><h2>Free to start. Pay <em>once</em> for Pro.</h2></div>
   <div class="plans">
-    <article class="plan reveal"><h3>Free</h3><p class="amount"><b>$0</b> <span>for good</span></p><p class="small">&nbsp;</p><ul class="ticks dark"><li>All four capture modes: full page, visible area, region, element</li><li>Markup, Instant Copy, and export to PNG, JPG and PDF</li><li>Your library, search and one collection</li><li>Guides, comparisons, videos and carousels, with a small “Made with Vitrine” mark</li><li>Backup and restore</li></ul><span class="btn btn-main is-soon" role="note">Coming soon to the Chrome Web Store</span></article>
-    <article class="plan plan-pro reveal"><h3>Pro</h3><p class="amount"><b data-after="$24">$19</b> <span>once</span></p><p class="small" data-after="One payment. US dollars.">Launch price until November 30, 2026, then $24. US dollars.</p>
-      <ul class="ticks dark"><li>Brand match and your saved look</li><li>Social sizes: 16:9, 1:1, 4:5 and 9:16</li><li>The proof stamp: source link and capture date</li><li>Unlimited collections</li><li>Guides, comparisons, videos and carousels without the mark</li><li>Every 1.x update included</li></ul>
-      <a class="btn btn-ink" id="buy" href="https://gumroad.com/l/fguly">Get Pro on Gumroad</a><p class="small">You get a licence key to paste in Vitrine. No account. New users also get a 7-day Pro trial, no card needed.</p></article>
+    <article class="plan rv"><h3>Free</h3><p class="amount"><b>$0</b> <span>for good</span></p><p class="small">&nbsp;</p><ul class="ticks"><li>All four capture modes: full page, visible area, region, element</li><li>Markup, Instant Copy, and export to PNG, JPG and PDF</li><li>Your library, search and one collection</li><li>Guides, comparisons, videos and carousels, with a small “Made with Vitrine” mark</li><li>Backup and restore</li></ul><span class="btn btn-line is-soon" role="note">Coming soon to the Chrome Web Store</span></article>
+    <article class="plan plan-pro rv"><p class="ribbon launch-only">Launch price</p><h3>Pro</h3><p class="amount"><b data-after="$24">$19</b> <span>once</span></p><p class="small" data-after="One payment. US dollars.">Launch price until November 30, 2026, then $24. US dollars.</p>
+      <ul class="ticks"><li>Brand match and your saved look</li><li>Social sizes: 16:9, 1:1, 4:5 and 9:16</li><li>The proof stamp: source link and capture date</li><li>Unlimited collections</li><li>Guides, comparisons, videos and carousels without the mark</li><li>Every 1.x update included</li></ul>
+      <span class="btn btn-line is-soon" role="note">Pro opens with the Chrome Web Store launch.</span><p class="small">You get a licence key to paste in Vitrine. No account. New users also get a 7-day Pro trial, no card needed.</p></article>
   </div>
-  <p class="center small reveal">14-day money-back promise. <a href="compare.html">How does that compare? See the price comparison.</a></p>
+  <ul class="assure rv"><li>14-day money-back promise</li><li>7-day Pro trial, no card needed</li><li>No account, no subscription</li><li>Every 1.x update included</li></ul>
+  <p class="center small rv"><a href="compare.html">How does that compare? See the dated price comparison.</a></p>
 </div></section>
-<section class="faq"><div class="wrap narrow"><h2 class="reveal">Questions</h2><details><summary>Do I need an account?</summary><p>No. Not for the free version, not for Pro. Pro is a licence key you paste once, and it works offline.</p></details><details><summary>Where are my screenshots stored?</summary><p>In a private library in your browser, on your computer. Back it all up as one zip whenever you like.</p></details><details><summary>What does Vitrine send over the internet?</summary><p>Nothing, except a one-time licence check when you activate Pro.</p></details><details><summary>Which browser does it need?</summary><p>Google Chrome on your computer.</p></details><details><summary>Is it in French?</summary><p>Yes. Vitrine speaks English and French, and follows your Chrome language.</p></details><details><summary>What if Pro isn’t right for me?</summary><p>Email us within 14 days of your purchase and we’ll refund you in full.</p></details><details><summary>How do I reach you?</summary><p>Write to <a href="mailto:support@metadatamarketer.com">support@metadatamarketer.com</a>. A real person replies within 3 business days.</p></details></div></section>
-<section class="stage end"><div class="wrap center reveal">
-  <div class="end-mark"><svg viewBox="6 6 116 116" aria-hidden="true"><path d="M22.67 121.33V49.33A42.67 42.67 0 0 1 108 49.33V121.33Z" fill="none" stroke="#17140F" stroke-width="2.67" stroke-linejoin="round"/><path d="M24 120V49.33A41.33 41.33 0 0 1 106.67 49.33V120Z" fill="#FF5A36"/><path d="M27.69 116.31V49.33A37.64 37.64 0 0 1 102.98 49.33V116.31Z" fill="none" stroke="#F6F1E9" stroke-width="7.38"/><path d="M65.33 15.38V112.62M31.38 61.03H99.29" stroke="#F6F1E9" stroke-width="4.72"/></svg></div><h2 class="big">Screenshots worth <em>showing</em>.</h2><div class="ctas center-row"><span class="btn btn-main is-soon" role="note">Coming soon to the Chrome Web Store</span></div><p class="note">Pay once for Pro. No account. No subscription.</p>
+<section class="faq" id="faq"><div class="wrap faq-grid">
+  <div class="head rv"><p class="kicker">Questions</p><h2>Good <em>questions</em>.</h2></div>
+  <div class="faq-list"><details class="rv"><summary>Do I need an account?</summary><p>No. Not for the free version, not for Pro. Pro is a licence key you paste once, and it works offline.</p></details><details class="rv"><summary>Is the free version really free?</summary><p>Yes. All four capture modes, markup, Instant Copy and export are free for good. Everything free today stays free in every 1.x update.</p></details><details class="rv"><summary>Does it handle long pages?</summary><p>Yes. Vitrine scrolls the whole page for you, shows sticky headers once and keeps very long pages sharp, even pages that scroll inside a box, like inboxes and dashboards. Press Esc on a very long page to stop and keep what you have.</p></details><details class="rv"><summary>Where are my screenshots stored?</summary><p>In a private library in your browser, on your computer. Back it all up as one zip whenever you like.</p></details><details class="rv"><summary>What does Vitrine send over the internet?</summary><p>Nothing, except a one-time licence check when you activate Pro.</p></details><details class="rv"><summary>Which browser does it need?</summary><p>Google Chrome on your computer.</p></details><details class="rv"><summary>Is it in French?</summary><p>Yes. Vitrine speaks English and French, and follows your Chrome language.</p></details><details class="rv"><summary>What if Pro isn’t right for me?</summary><p>Email us within 14 days of your purchase and we’ll refund you in full.</p></details><details class="rv"><summary>How do I reach you?</summary><p>Write to <a href="mailto:support@metadatamarketer.com">support@metadatamarketer.com</a>. A real person replies within 3 business days.</p></details></div>
+</div></section>
+<section class="final"><div class="final-glow" aria-hidden="true"></div><div class="wrap center rv">
+  <div class="final-mark"><svg viewBox="6 6 116 116" aria-hidden="true"><path d="M22.67 121.33V49.33A42.67 42.67 0 0 1 108 49.33V121.33Z" fill="none" stroke="#17140F" stroke-width="2.67" stroke-linejoin="round"/><path d="M24 120V49.33A41.33 41.33 0 0 1 106.67 49.33V120Z" fill="#FF5A36"/><path d="M27.69 116.31V49.33A37.64 37.64 0 0 1 102.98 49.33V116.31Z" fill="none" stroke="#F6F1E9" stroke-width="7.38"/><path d="M65.33 15.38V112.62M31.38 61.03H99.29" stroke="#F6F1E9" stroke-width="4.72"/></svg></div><h2>Screenshots worth <em>showing</em>.</h2><div class="ctas"><a class="btn btn-main" href="media/en/demo.mp4" data-demo><span class="tri" aria-hidden="true"></span>Watch the demo<span class="dur">0:31</span></a><a class="btn btn-ghost" href="#pricing">See the launch price</a></div><p class="status"><span class="pulse" aria-hidden="true"></span>Coming soon to the Chrome Web Store</p><p class="note">Free to start. Pay once for Pro. No account.</p>
 </div></section>
 </main>
 <footer class="foot"><div class="wrap foot-row">
@@ -71,24 +102,62 @@
   <nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="compare.html">Price comparison</a><a href="fr/" lang="fr" hreflang="fr">Français</a></nav>
   <p class="fine">Vitrine · Mohamed Sbaiti · Québec, Canada<br>Chrome is a trademark of Google LLC.</p>
 </div></footer>
+<div class="dock" id="dock" aria-hidden="true"><p data-after="Pro: $24 once">Pro: $19 once until Nov. 30</p><a class="btn btn-main btn-sm" href="#pricing" tabindex="-1">See pricing</a></div>
+<dialog class="demo" id="demo" aria-label="Vitrine’s demo, 30 seconds, silent."><form method="dialog"><button class="close" aria-label="Close">×</button></form><video controls playsinline preload="none" width="1280" height="720" poster="img/en/hero-poster.webp" data-src="media/en/demo.mp4"></video></dialog>
 <script>
-document.documentElement.classList.add("js")
-// The launch price (same last day as the extension): the Gumroad link carries the LAUNCH code until November 30, 2026.
-if (new Date() < new Date(2026, 11, 1)) document.getElementById("buy").href += "/LAUNCH"
-else document.querySelectorAll("[data-after]").forEach((e) => (e.textContent = e.dataset.after))
+const d = document.documentElement
+d.classList.add("js")
 const still = matchMedia("(prefers-reduced-motion: reduce)").matches
-// Clips load only when they come into view, and only play while visible. With reduced motion they wait for a click.
-const io = new IntersectionObserver((es) => es.forEach(({ target: v, isIntersecting: on }) => {
-  if (on && !v.src) v.src = v.dataset.src
-  if (still) return
-  on ? v.play().catch(() => {}) : v.pause()
-}), { threshold: 0.35 })
-document.querySelectorAll(".clip video").forEach((v) => {
-  io.observe(v)
-  if (still) { const b = v.nextElementSibling; b.hidden = false; b.onclick = () => { if (!v.src) v.src = v.dataset.src; v.controls = true; b.hidden = true; v.play() } }
+const conn = navigator.connection || {}
+const light = conn.saveData || /2g/.test(conn.effectiveType || "")
+// The launch price, with the same last day as the extension: until November 30, 2026, the Gumroad link carries
+// the LAUNCH code and the page counts the days left. From December 1, $24, and the launch lines go away.
+const end = new Date(2026, 11, 1), now = new Date()
+if (now < end) {
+  const n = Math.ceil((end - now) / 864e5)
+  document.querySelectorAll("[data-buy]").forEach((a) => (a.href += "/LAUNCH"))
+  document.querySelectorAll("[data-days]").forEach((e) => (e.textContent = n <= 1 ? e.dataset.last : e.dataset.days.replace("{n}", n)))
+} else {
+  document.querySelectorAll("[data-after]").forEach((e) => (e.textContent = e.dataset.after))
+  document.querySelectorAll(".launch-only").forEach((e) => e.remove())
+}
+// Windows keyboards say Alt and Shift.
+if (/Win/.test(navigator.platform)) document.querySelectorAll(".keys").forEach((k) => { const [a, b] = k.children; a.textContent = "Alt"; b.textContent = "Shift"; k.classList.add("win-keys") })
+// Videos load when they come near, and play only while they can be seen. With reduced motion, or a data saver,
+// they wait for a click.
+const play = (v) => { if (!v.src) v.src = (innerWidth < 700 && v.dataset.sm) || v.dataset.src; return v.play() }
+const offer = (v) => { const b = v.parentElement.querySelector(".play"); if (!b) return; b.hidden = false; b.onclick = () => { v.controls = true; b.hidden = true; play(v).catch(() => {}) } }
+// The hero loop starts as soon as any of it shows (on a laptop only its top is in view at first); the reels once
+// a third of them shows.
+const watch = () => document.querySelectorAll("video[data-src]:not(.demo video)").forEach((v) => new IntersectionObserver((es) => es.forEach(({ isIntersecting: on }) => {
+  if (still || light) return on && offer(v)
+  on ? play(v).catch(() => offer(v)) : v.pause()
+}), { threshold: v.classList.contains("hero-video") ? 0 : 0.3 }).observe(v))
+// The hero loop waits for the page to finish loading, so it never slows the first picture.
+document.readyState === "complete" ? watch() : addEventListener("load", watch)
+// The full demo, in a window over the page.
+const dlg = document.getElementById("demo"), dv = dlg.querySelector("video")
+document.querySelectorAll("[data-demo]").forEach((a) => a.addEventListener("click", (e) => {
+  if (!dlg.showModal) return
+  e.preventDefault(); if (!dv.src) dv.src = dv.dataset.src
+  dlg.showModal(); dv.currentTime = 0; dv.play().catch(() => {})
+}))
+dlg.addEventListener("close", () => dv.pause())
+dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close() })
+// Things arrive as they scroll into view.
+const ro = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); ro.unobserve(e.target) } }), { rootMargin: "0px 0px -10% 0px" })
+document.querySelectorAll(".rv").forEach((e) => ro.observe(e))
+// On phones, a small bar keeps the next step in reach once the hero's buttons are out of sight, and steps aside
+// near the prices and the closing band.
+const dock = document.getElementById("dock"), seen = new Set()
+const dio = new IntersectionObserver((es) => {
+  es.forEach((e) => (e.isIntersecting ? seen.add(e.target) : seen.delete(e.target)))
+  const on = !seen.has(hero) && !seen.has(price) && !seen.has(fin) && scrollY > 200
+  dock.classList.toggle("on", on); dock.setAttribute("aria-hidden", String(!on))
+  dock.querySelectorAll("a").forEach((a) => (a.tabIndex = on ? 0 : -1))
 })
-const ro = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); ro.unobserve(e.target) } }), { rootMargin: "0px 0px -8% 0px" })
-document.querySelectorAll(".reveal").forEach((e) => ro.observe(e))
+const hero = document.getElementById("hero-ctas"), price = document.getElementById("pricing"), fin = document.querySelector(".final")
+;[hero, price, fin].forEach((e) => dio.observe(e))
 </script>
 </body>
 </html>
