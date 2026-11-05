@@ -257,6 +257,9 @@ section { position: relative; }
 .foot nav { display: grid; gap: 10px; }
 .foot nav a { color: var(--on-ink); text-decoration: none; }
 .foot nav a:hover { text-decoration: underline; }
+.foot nav.guides { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 24px; border-top: 1px solid var(--ink-rule); font-size: 14px; }
+.foot nav.guides b { color: var(--on-ink-3); font-weight: 600; }
+.foot nav.guides a { color: var(--on-ink-2); }
 .foot .fine { margin-top: 0; color: var(--on-ink-3); font-size: 14px; }
 
 /* ---------- the phone bar and the demo window ---------- */

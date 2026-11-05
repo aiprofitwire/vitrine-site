@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://vitrine.metadatamarketer.com/</loc></url>
   <url><loc>https://vitrine.metadatamarketer.com/fr/</loc></url>
   <url><loc>https://vitrine.metadatamarketer.com/privacy.html</loc></url>
@@ -8,4 +8,12 @@
   <url><loc>https://vitrine.metadatamarketer.com/fr/confidentialite.html</loc></url>
   <url><loc>https://vitrine.metadatamarketer.com/fr/conditions.html</loc></url>
   <url><loc>https://vitrine.metadatamarketer.com/fr/comparer.html</loc></url>
+  <url><loc>https://vitrine.metadatamarketer.com/full-page-screenshot-chrome.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/full-page-screenshot-chrome.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-chrome.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/full-page-screenshot-to-pdf.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/full-page-screenshot-to-pdf.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-en-pdf.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/screenshot-webpage-without-ads-popups.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/screenshot-webpage-without-ads-popups.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-web-sans-publicite.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/turn-webpage-screenshot-into-video-carousel.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/turn-webpage-screenshot-into-video-carousel.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/transformer-capture-ecran-en-video-carrousel.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-chrome.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/full-page-screenshot-chrome.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-chrome.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-en-pdf.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/full-page-screenshot-to-pdf.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-entiere-en-pdf.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/fr/capture-ecran-page-web-sans-publicite.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/screenshot-webpage-without-ads-popups.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/capture-ecran-page-web-sans-publicite.html"/></url>
+  <url><loc>https://vitrine.metadatamarketer.com/fr/transformer-capture-ecran-en-video-carrousel.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://vitrine.metadatamarketer.com/turn-webpage-screenshot-into-video-carousel.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://vitrine.metadatamarketer.com/fr/transformer-capture-ecran-en-video-carrousel.html"/></url>
 </urlset>
